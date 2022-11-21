@@ -1,0 +1,178 @@
+body{
+overflow-x: hidden;
+}
+#brand-logo{
+    padding-left: 2rem;
+    color: white;
+    font-size:3rem;
+}
+#top-tab{
+   
+    padding: 1rem 0 1rem 0;
+    background-color:black;
+
+}
+a{
+    font-size: 2rem;
+}
+#cart{
+    height: 3rem;
+    width: 3rem;
+}
+#title {
+    background-image: url("woman2.png");
+    height: 600px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 7rem;
+}
+
+#slogan {
+    
+    padding: 3rem 0 0 8rem;
+}
+#new-collection{
+    text-align:center;
+}
+
+#collection-header {
+    padding-top: 3rem;
+    color: #1E212D;
+}
+#showroom {
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+}
+#cta {
+    background-color: #B68973;
+    text-align: center;
+    padding: 5% 0;
+}
+
+
+#footer{
+  background-color:#343a40;
+  text-align:center;
+  color:#fff;
+  padding: 3% 0 1.5%;
+}
+h1 {
+    color: white;
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 4.5rem;
+    line-height: 1.5;
+    
+}
+h2, h3 {
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 2rem;
+    font-style: italic;
+}
+p {
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 1.5rem;
+    font-style: italic;
+}
+.container-fluid{
+  padding: 1.5% 15% 8%;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+.nav-item {
+    padding: 0 1rem;
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.lastpar {
+    color: white;
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+@media (max-width: 1028px){
+
+#menu-button{
+    height:5rem;
+    width:5rem;
+}
+#brand-logo{
+    font-size:5rem;
+}
+#cart{
+    height:4rem;
+    width: 4rem;
+}
+#top-tab{
+    
+}
+a{
+    font-size:2.5rem;
+}
+  #title{
+    height: 60rem;
+    background-position: 55rem ;
+    text-align:inherit;
+  }
+  #slogan{
+      padding-top:15rem
+  }
+
+}
+#iconbar{
+  text-align: center;
+}
+.icon{
+  color: white;
+  padding: 2rem;
+}
+.icon:hover{
+  color: white;
+}
+.carousel-item{
+  padding: 0% 15% 0;
+}
+.slides{
+  width: 18rem;
+  border-radius: 100%;
+  padding: 3rem;
+}
+
+#carouselExampleIndicators{
+  text-align: center;
+}
+#carouselExampleIndicators2 {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.card-title{
+  color: black;
+}
+.btn-primary{
+  background-color: #FF7979;
+  border-color: #FF7979;
+}
+.btn-primary:hover{
+  background-color: #FF1C1C;
+  border-color: #FF1C1C;
+}
+.socials{
+width: 2rem;
+position: relative;
+display:inline-block;
+}
+.socials-parent{
+  padding-bottom: 1rem;
+}
