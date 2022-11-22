@@ -1,0 +1,329 @@
+body {
+    overflow-x: hidden;
+
+}
+#background {
+background-color: black;
+}
+#top-tab{
+  padding: 1rem 0 1rem 0;
+    background-color:black;
+
+}
+
+#cart{
+    height: 2rem;
+    width: 2rem;
+}
+#title {
+    background-image: url("woman2.png");
+    height: 600px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 7rem;
+}
+
+#title2 {
+    background-image: url("menswear4.png");
+    height: 600px;
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 7rem;
+}
+
+
+
+#slogan {
+    
+    padding: 3rem 0 0 8rem;
+}
+
+#slogan2{
+    text-align:center;
+    max-width:100%;
+
+}
+
+#slogan-text2{
+    font-size:10rem;
+}
+
+#categories{
+    font-style:italic;
+}
+
+.button {
+    border-radius:3px;
+    background-color: #ffffff;
+    display: inline-block;
+    cursor: pointer;
+    color: #000000;
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 2rem;
+    padding: 10rem 0rem;
+    width:12.7rem;
+    text-align:center;
+    background-size:110%;
+    
+
+    
+}
+.item-names {
+    display:inline-block;
+    color: white;
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 2rem;
+    padding: 1rem 0rem;
+    width: 12.7rem;
+    text-align: center;
+    
+}
+#button1 {
+    background-image: url(coat.png);
+    text-decoration: none;
+    color:white;
+}
+
+#button2 {
+    background-image: url(jacket.png);
+    text-decoration: none;
+    color: white;
+}
+
+#button3 {
+    background-image: url(trousers.png);
+    text-decoration: none;
+    color: white;
+}
+#button4 {
+    background-image: url(bag.png);
+    text-decoration: none;
+    color: white;
+}
+#button5 {
+    background-image: url(shoes.png);
+    text-decoration: none;
+    color: white;
+}
+#button6 {
+    background-image: url(hat.png);
+    text-decoration: none;
+    color: white;
+}
+#button7 {
+    background-image: url(jewelery.png);
+    text-decoration: none;
+    color: white;
+}
+#button8 {
+    background-image: url(watch.png);
+    text-decoration: none;
+    color: white;
+}
+#button9 {
+    background-image: url(accesories.png);
+    text-decoration: none;
+    color: white;
+}
+
+#item-div {
+    background-color: black;
+}
+
+.button-list{
+    margin:0rem;
+    padding:0rem;
+
+}
+    #button1:hover {
+        background-color: #cccccc;
+    }
+
+    .button:active {
+        position: relative;
+        top: 1px;
+    }
+
+#new-collection{
+    text-align:center;
+}
+
+#collection-header {
+    padding-top: 3rem;
+    color: #1E212D;
+}
+#showroom {
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+}
+#cta {
+    background-color: black;
+    text-align: center;
+    padding: 2% 0;
+}
+
+#brand-logo {
+    color: white;
+}
+
+#footer{
+  background-color:#343a40;
+  text-align:center;
+  color:#fff;
+  padding: 3% 0 1.5%;
+}
+h1 {
+    color: white;
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 4rem;
+    line-height: 1.5;
+    
+}
+h2, h3 {
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 2.5rem;
+    font-style: italic;
+}
+p {
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 2rem;
+    font-style: italic;
+}
+.container-fluid{
+  padding: 1.5% 15% 8%;
+}
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 2rem;
+    font-weight: bold;
+
+    padding-left: 2rem;
+    color: white;
+}
+.nav-item {
+    padding: 0 1rem;
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 1.2rem;
+
+}
+
+.lastpar {
+    color: white;
+    font-family: "font-family: 'IBM Plex Serif', serif;";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-style: italic;
+}
+
+
+
+
+
+
+#menswear-top {
+    width: 100%;
+    background-image: url("menswear5.png");
+    height: 30rem;
+}
+
+#slogan {
+    text-align: center;
+    padding: 5% 0;
+    font-size: 8rem;
+}
+
+@media (max-width: 1028px){
+
+#menu-button{
+    height:8rem;
+    width:8rem;
+    outline-width:10px;
+    outline-color:white;
+}
+
+    .navbar-toggler-icon {
+        height: 5rem;
+        width: 5rem;
+    }
+
+#brand-logo {
+        font-size: 5rem;
+    }
+#cart{
+    height:4rem;
+    width: 4rem;
+}
+#top-tab{
+    
+}
+a{
+    font-size:2.5rem;
+}
+  #title{
+    height: 60rem;
+    background-position: 65rem ;
+    text-align:inherit;
+  }
+  #slogan{
+      padding-top:15rem;
+      text-align:center;
+      padding-right:6rem;
+  }
+  #collection-header{
+      font-size:4rem;
+  }
+    #slogan-text {
+        font-size: 7rem;
+    }
+}
+#iconbar{
+  text-align: center;
+}
+.icon{
+  color: white;
+  padding: 2rem;
+}
+.icon:hover{
+  color: white;
+}
+.carousel-item{
+  padding: 0% 15% 0;
+}
+.slides{
+  width: 18rem;
+  border-radius: 100%;
+  padding: 3rem;
+}
+
+#carouselExampleIndicators{
+  text-align: center;
+}
+#carouselExampleIndicators2 {
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.card-title{
+  color: black;
+}
+.btn-primary{
+  background-color: #FF7979;
+  border-color: #FF7979;
+}
+.btn-primary:hover{
+  background-color: #FF1C1C;
+  border-color: #FF1C1C;
+}
+.socials{
+width: 2rem;
+position: relative;
+display:inline-block;
+}
+.socials-parent{
+  padding-bottom: 1rem;
+}
