@@ -33,7 +33,9 @@ background-color: black;
     padding-bottom: 7rem;
 }
 
-
+.pictures{
+    display:inline-block;
+}
 
 #slogan {
     
@@ -117,15 +119,16 @@ background-color: black;
     text-decoration: none;
     color: white;
 }
+
 #button8 {
-    background-image: url(watch.png);
-    text-decoration: none;
-    color: white;
-}
-#button9 {
     background-image: url(accesories.png);
     text-decoration: none;
     color: white;
+}
+
+#categorie-buttons{
+    position: center;
+    text-align:center;
 }
 
 #item-div {
@@ -326,4 +329,8 @@ display:inline-block;
 }
 .socials-parent{
   padding-bottom: 1rem;
+}
+
+#slogan-text2{
+    font-size:8rem;
 }
